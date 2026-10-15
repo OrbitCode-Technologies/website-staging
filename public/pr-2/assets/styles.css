@@ -114,7 +114,7 @@ h3{font-size:18px;font-weight:600;letter-spacing:-.5px;line-height:1.4}
 .header-inner{position:relative}
 .mobile-menu{display:none}
 .company-registration{font-size:11px;color:var(--muted);margin-bottom:16px;overflow-wrap:anywhere}
-@media(max-width:820px){
+@media(max-width:960px){
   .desktop-nav{display:none}
   .mobile-menu{display:block}
   .mobile-menu summary{display:flex;align-items:center;justify-content:center;gap:12px;min-width:94px;min-height:44px;padding:9px 13px;border:1px solid var(--line);border-radius:5px;list-style:none;cursor:pointer;font-size:12px;font-weight:600}
@@ -128,3 +128,13 @@ h3{font-size:18px;font-weight:600;letter-spacing:-.5px;line-height:1.4}
   .mobile-menu nav>.button{margin-top:4px;font-size:12px}
   .mobile-menu nav>a>span{font-size:18px}
 }
+
+.products-section{border-top:1px solid var(--line)}
+.products-inner{display:grid;grid-template-columns:1.4fr 1fr;align-items:center;gap:110px;padding-block:62px}
+.products-inner .eyebrow{margin-bottom:18px}
+.products-inner h2{font-size:36px}
+.product-status{display:inline-block;color:var(--purple);background:#f2edf7;border:1px solid #e5dbee;padding:5px 10px;border-radius:4px;font-size:9px;font-weight:700;letter-spacing:1.3px;margin-bottom:15px}
+.products-copy p{font-size:13px;line-height:1.9;color:var(--muted)}
+.products-copy p+p{margin-top:12px}
+@media(max-width:820px){.products-inner{gap:35px;grid-template-columns:1.1fr 1fr;padding-block:50px}.products-inner h2{font-size:32px}}
+@media(max-width:560px){.products-inner{grid-template-columns:1fr;gap:24px;padding-block:45px}.products-inner h2{font-size:31px}}
